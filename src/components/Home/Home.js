@@ -20,8 +20,7 @@ const Home = () => {
     }, [])
 
     const handleAddToCart = (activity) => {
-        console.log('clicked')
-        // cart.push(activity)
+        // console.log('clicked')
         const newCart = [...cart, activity];
         setCart(newCart);
     }
