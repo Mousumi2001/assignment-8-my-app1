@@ -1,3 +1,5 @@
+import { faStar } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
@@ -29,7 +31,8 @@ const Home = () => {
     return (
         <div className='home-container'>
             <div className='container'>
-                <h1>MY DAILY ACTIVITY</h1>
+
+                <h1><FontAwesomeIcon icon={faStar}></FontAwesomeIcon> MY DAILY ACTIVITY</h1>
                 <h2>Select today's activity</h2>
                 <div className='cart-container'>
 
