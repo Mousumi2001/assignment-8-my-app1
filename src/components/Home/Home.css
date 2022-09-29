@@ -1,0 +1,25 @@
+.home-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.container {
+    padding: 30px;
+}
+
+.container h1 {
+    color: rgb(176, 127, 245);
+}
+
+.cart-container {
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+}
+
+.info {
+    background-color: rgb(224, 224, 225);
+    padding: 10px;
+}

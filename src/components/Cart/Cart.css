@@ -1,0 +1,26 @@
+.one-cart img {
+    width: 280px;
+    margin: 12px;
+
+}
+
+.one-cart {
+    height: 420px;
+    border: 1px solid rgb(142, 141, 141);
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px -4px black;
+}
+
+.details {
+    padding: 0px 20px;
+}
+
+.btn {
+    width: 100%;
+    padding: 0px 10px;
+    font-size: 16px;
+    background-color: rgb(136, 65, 251);
+    border: none;
+    border-radius: 10px;
+    color: white;
+}

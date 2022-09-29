@@ -1,0 +1,59 @@
+.data {
+    position: sticky;
+    top: 0;
+}
+
+.my-data {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(254, 254, 253);
+    border-radius: 10px;
+    /* margin: 5px; */
+}
+
+.my-data div h2 {
+    margin: 0px;
+}
+
+.my-data div p {
+    margin: 3px;
+}
+
+.button {
+    background-color: rgb(253, 253, 251);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+}
+
+.button button:hover {
+    background-color: rgb(170, 118, 248);
+}
+
+.time {}
+
+.exercise,
+.break {
+    background-color: rgb(251, 251, 249);
+    border-radius: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* {
+    width: 100%;
+    height: 20px;
+    font-size: 15px;
+    background-color: rgb(166, 125, 227);
+    border: none;
+    border-radius: 5px;
+} */
