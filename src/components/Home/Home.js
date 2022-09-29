@@ -18,8 +18,8 @@ const Home = () => {
     return (
         <div className='home-container'>
             <div className='container'>
-                <h1>ULRA-ACTIVE-CLUB</h1>
-                <h2>Select today's exercise</h2>
+                <h1>MY DAILY ACTIVITY</h1>
+                <h2>Select today's activity</h2>
                 <div className='cart-container'>
 
                     {

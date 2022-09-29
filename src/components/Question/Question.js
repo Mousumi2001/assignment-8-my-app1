@@ -14,7 +14,7 @@ const Question = () => {
                 <p>Props are immutable so we cannot modify the props from inside the component. 1. Props are read-only. State changes can be asynchronous. 2. Props are immutable. State is mutable. 3. Props allow you to pass data from one component to other components as an argument. State holds information about the components.4.</p>
             </div>
             <div>
-                <h2>What is the use of useeffect?</h2>
+                <h2>What is the use of useeffect without data load?</h2>
                 <p>When you call useEffect in your component, this is effectively queuing or scheduling an effect to maybe run, after the render is done. After rendering finishes, useEffect will check the list of dependency values against the values from the last render, and will call your effect function if any one of them has changed.
                 </p>
             </div>
