@@ -23,3 +23,19 @@
     background-color: rgb(224, 224, 225);
     padding: 10px;
 }
+
+
+/* responsiv */
+@media screen and (max-width:767px) {
+    .home-container {
+        display: block;
+    }
+
+    .cart-container {
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+
+    }
+}

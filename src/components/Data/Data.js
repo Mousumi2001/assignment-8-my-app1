@@ -42,7 +42,7 @@ const Data = () => {
                     </div>
                 </div>
 
-                <button className='btn'>
+                <button className='activity-btn'>
                     <h4>Activity Completed
                     </h4>
                 </button>
