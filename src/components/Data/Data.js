@@ -3,11 +3,16 @@ import './Data.css'
 
 const Data = (props) => {
     const { cart } = props;
-    console.log(cart);
+    // console.log(cart);
 
     let total = 0;
     for (const act of cart) {
         total = total + act.time;
+    }
+
+    const handler = () => {
+        console.log('added')
+
     }
 
     return (
@@ -33,10 +38,10 @@ const Data = (props) => {
 
                 <h3>Add A Break</h3>
                 <div className='button'>
-                    <button><h4>10m</h4></button>
-                    <button><h4>20m</h4></button>
-                    <button><h4>30m</h4></button>
-                    <button><h4>40m</h4></button>
+                    <button onClick={handler}><h4>10m</h4></button>
+                    <button onClick={handler}><h4>20m</h4></button>
+                    <button onClick={handler}><h4>30m</h4></button>
+                    <button onClick={handler}><h4>40m</h4></button>
 
                 </div>
                 <div className='time'>
