@@ -7,13 +7,24 @@ import Question from '../Question/Question';
 import './Home.css'
 
 const Home = () => {
-    const [players, setPlayers] = useState([])
+    const [activities, setActivities] = useState([])
+
+    const [cart, setCart] = useState([])
 
     useEffect(() => {
         fetch('data.json')
             .then(res => res.json())
-            .then(data => setPlayers(data))
+            .then(data => setActivities(data))
     }, [])
+
+    const handleAddToCart = (activity) => {
+        console.log('clicked')
+        // cart.push(activity)
+        const newCart = [...cart, activity];
+        setCart(newCart);
+    }
+
+
 
     return (
         <div className='home-container'>
@@ -23,7 +34,10 @@ const Home = () => {
                 <div className='cart-container'>
 
                     {
-                        players.map(player => <Cart player={player}></Cart>)
+                        activities.map(activity => <Cart
+                            activity={activity}
+                            handleAddToCart={handleAddToCart}
+                        ></Cart>)
                     }
                 </div>
                 <div className='question-container'>
@@ -31,7 +45,7 @@ const Home = () => {
                 </div>
             </div>
             <div className='info'>
-                <Data></Data>
+                <Data cart={cart}></Data>
             </div>
         </div>
     );

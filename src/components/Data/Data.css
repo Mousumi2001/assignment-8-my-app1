@@ -1,12 +1,14 @@
 .data {
     position: sticky;
     top: 0;
+    text-align: center;
 }
 
 .my-data {
     display: flex;
     justify-content: space-around;
     background-color: rgb(254, 254, 253);
+    box-shadow: 0px 0px 5px 1px rgba(249, 247, 248, 0.96);
     border-radius: 10px;
     /* margin: 5px; */
 }
@@ -22,6 +24,7 @@
 .button {
     background-color: rgb(253, 253, 251);
     border-radius: 10px;
+    box-shadow: 0px 0px 5px 1px rgba(249, 247, 248, 0.96);
     display: flex;
     justify-content: space-around;
 }
@@ -29,12 +32,13 @@
 .button button {
     width: 50px;
     height: 50px;
-    border-radius: 50px;
+    border-radius: 5px 25px 5px 25px;
     border: none;
+    margin: 5px;
 }
 
 .button button:hover {
-    background-color: rgb(170, 118, 248);
+    background-color: rgb(250, 27, 146);
 }
 
 .time {}
@@ -53,7 +57,7 @@
     width: 100%;
     font-size: 15px;
     color: white;
-    background-color: rgb(100, 59, 233);
+    background-color: rgb(250, 27, 146);
     border: none;
     border-radius: 5px;
 }
